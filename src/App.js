@@ -10,11 +10,13 @@ import './styles/global.css';
 function App() {
   return (
     <div className="App">
-      <div className="images-area">
-        <Image
-          src="https://newevolutiondesigns.com/images/freebies/tropical-beach-background-8.jpg"
-          fallback={<ClipLoader css="loading" size={150} loading={true} color={"#123abc"} />}
-        />
+      <div className="card">
+        <div className="images-area">
+          <Image
+            src="https://newevolutiondesigns.com/images/freebies/tropical-beach-background-8.jpg"
+            fallback={<ClipLoader css="loading" size={150} loading={true} color={"#123abc"} />}
+          />
+        </div>
       </div>
     </div>
   );
